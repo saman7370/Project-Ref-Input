@@ -26,7 +26,7 @@ class PureCompo extends PureComponent{
         return(
             <>
             <div className = "main">
-                <h2 className = "header">کلمه مورد نظر خود را بنویسید</h2>
+                <h2 className = "header">کلمه مورد نظر خود را ثبت کنید و کلمه تکراری فقط یکبار ثبت میشود</h2>
                 <input ref = {this.MyInput} className = "input" type = "text" placeholder ="کلمه خود را تایپ کنید"
                  value = {this.state.value}></input>
                 <div className = "box-btn">
